@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  server:
+    build: .
+    ports:
+      - "4000:4000"
+  mongodbx:
+    image: mongo:4.2.3
+    container_name: mongodbx
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: test-db
+    volumes:
+      - ./init-db.js:/docker-entrypoint-initdb.d/init.js

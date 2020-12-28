@@ -1,0 +1,42 @@
+
+
+.container {
+  background-color: blueviolet;
+}
+.dnd-grid {
+  display: grid;
+  align-items: start;
+  width: 100%;
+  height: 100%;
+  gap: .5rem;
+  grid-template-columns: repeat(auto-fill,300px);
+  padding: .5rem;
+}
+
+.dnd-group {
+  background-color: #464f6b;
+  border-radius: 5px;
+  padding: .5rem;
+}
+
+.dnd-item {
+  background-color: rgb(170, 144, 241);
+  min-height: 50px;
+  border-radius: 5px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.current {
+  background-color: blanchedalmond;
+}
+
+.dnd-item:not(:last-of-type) {
+  margin-bottom: 0.5rem
+}
+.dnd-item * {
+  margin: 0;
+
+}

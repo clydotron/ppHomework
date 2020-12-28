@@ -1,0 +1,13 @@
+.time-line-container {
+  background: #e8f6fe;
+  width: auto;
+  height: 60px;
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  background-color: aquamarine;
+}
+
+.time-line-container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}

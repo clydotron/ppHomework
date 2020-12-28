@@ -1,0 +1,29 @@
+
+.settings-popover {
+  position: 'absolute';
+  zIndex: '2';
+}
+
+.settings-cover {
+  position: 'fixed';
+  top: 0px;
+  right: 0px;
+  bottom: '0px';
+  left: '0px';
+}
+
+.lane-title {
+  font-family: Helvetica;
+  font-size: 16pt;
+  padding: 8px 16px;
+  border: 0px;
+  margin: 0px 0px 8px 0px;
+  text-align: left;
+  flex-grow:1;
+}
+
+.widget-container-right {
+  float: right;
+  padding: 8px 6px;
+  cursor: pointer;
+}

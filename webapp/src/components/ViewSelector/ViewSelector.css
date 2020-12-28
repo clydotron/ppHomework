@@ -1,0 +1,80 @@
+@import "../../assets/stylesheets/index.css";
+
+.ViewSelector {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 80px;
+  position: relative;
+}
+
+.ViewSelector > {
+  vertical-align: bottom;
+}
+
+.ViewSelector h1 {
+  text-align: left;
+  margin-left: 32px;
+  margin-bottom: 4px;
+  font-family: "Gilroy-regular";
+  font-size: 40px;
+  font-weight: normal;
+  color: black;
+  background-color: inherit;
+  padding: 0;
+}
+
+.ViewSelector-view-title {
+  background-color: inherit;
+  float: left;
+  margin-bottom: 0px;
+  position: absolute;
+  bottom: 0;
+}
+
+.ViewSelector-view-options {
+
+  float: right;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  right: 185px;
+  background-color: inherit;
+}
+
+.ViewSelector-view-options ul {
+  display: flex;
+  text-align: center;
+  align-items: bottom;
+  justify-content: flex-end;
+  margin-bottom: 0.22rem;
+  color: black;
+  list-style-type: none;
+}
+
+/* 
+border-bottom: 1px solid #fff;
+*/
+.ViewSelector-view-options li {
+  cursor: pointer;
+
+  padding: 0.33rem 1.58rem 0.55rem 1.58rem;
+  font-family: "Gilroy-Medium";
+  line-height: 1.13;
+  text-align: center;
+  font-weight: 600;
+  font-size: .83rem;
+  transition: color .25s;
+  margin-bottom: -4px;
+}
+
+.ViewSelector-view-options li:hover {
+  color: #d4cfcf;
+}
+
+.ViewSelector-view-options li.active,
+.ViewSelector-view-options li.active:hover {
+  border-bottom: 4px solid #1973BA;
+  color: #1973BA;
+}

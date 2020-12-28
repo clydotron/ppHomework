@@ -1,0 +1,35 @@
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  margin: auto;
+  margin-right: 12px;
+}
+
+.search-input {
+  width: 100px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+
+}
+
+.search-button {
+  margin-left: 4px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  color: inherit;
+  border: none;
+}
+
+.search-button-icon {
+  font-size: 1.50rem;
+  background-color: white;
+}
+/*
+color:inherit;
+.icon {
+  color: #898c91;
+}
+*/
